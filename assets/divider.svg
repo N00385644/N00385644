@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#22c55e" stop-opacity="0"/><stop offset=".5" stop-color="#dcfce7"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></linearGradient>
+<filter id="gl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>text{font-family:'Fira Code','DejaVu Sans Mono',monospace;font-size:12px;fill:#22c55e;opacity:.55}
+.mv{animation:mv 14s linear infinite}@keyframes mv{to{transform:translateX(-1000px)}}
+.sh{animation:sh 3s ease-in-out infinite}@keyframes sh{from{transform:translateX(-1000px)}to{transform:translateX(1000px)}}</style>
+<line x1="0" y1="20" x2="1000" y2="20" stroke="#22c55e" stroke-opacity=".35"/>
+<rect class="sh" x="0" y="18" width="1000" height="4" fill="url(#l)" filter="url(#gl)"/>
+<g class="mv"><text x="0" y="12">11000011011100011011110110010000011001000011101111111100000101000010100100010010111100001000101100100011101011011110101111110001101000001000001100011110001011001100001101110001101111011001000001100100001110111111110000010100001010010001001011110</text><text x="0" y="36">00110010100111110101110010000000010010111101110101011101101110111101100001001000111100010110100000000010011010000000100110011110111000110110101100010101101010000011001010011111010111001000000001001011110111010101110110111011110110000100100011110</text></g>
+</svg>
